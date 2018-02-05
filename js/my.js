@@ -5,8 +5,8 @@ $(document).ready(function () {
         var height = $(this).innerHeight();
         var newValueX = (e.pageX / width) * pixelToMove;
         var newValueY = (e.pageY / height) * pixelToMove;
-        console.log("x: " + e.pageY);
-        console.log("y: " + newValueY);
+        //console.log("x: " + e.pageY);
+        //console.log("y: " + newValueY);
         $(this).css('background-position', newValueX + '%' + ' ' + newValueY + '%');
     });
 });
@@ -22,11 +22,11 @@ $('.carousel').on('slide.bs.carousel', function () {
 
 
 
-        var myCenter = new google.maps.LatLng(54.348853, 18.716782999999964);
+        var myCenter = new google.maps.LatLng(54.337058, 18.524824);
 function initialize() {
     var mapProp = {
         center: myCenter,
-        zoom: 12,
+        zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     var map = new google.maps.Map(document.getElementById("map"), mapProp);

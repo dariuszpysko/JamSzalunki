@@ -66,6 +66,7 @@ h4{
     color:#ffffff;
 }
 
+
 .bg-primary {
     background-color: #5cb85c !important; }
 
@@ -74,6 +75,14 @@ h4{
 
 .text-faded {
     color: rgba(255, 255, 255, 0.7); }
+
+.text-grey{
+    color:#3F3F3F;
+}
+
+.text-green{
+    color: #5cb85c;
+}
 
 section {
     padding: 8rem 0; }
@@ -180,10 +189,10 @@ body {
     header.masthead .intro-text {
         padding-top: 150px;
         padding-bottom: 100px; }
-      header.masthead .intro-text img {
-     
+    header.masthead .intro-text img {
+
         padding-bottom: 50px; }
-       
+
     header.masthead .intro-text .intro-lead-in {
         font-size: 22px;
         font-style: italic;
