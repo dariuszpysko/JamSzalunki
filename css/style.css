@@ -66,6 +66,13 @@ h4{
     color:#ffffff;
 }
 
+table img {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: #fff solid 1px;
+    
+}
+
 
 .bg-primary {
     background-color: #5cb85c !important; }
