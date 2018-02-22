@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var pixelToMove = 80;
+    var pixelToMove = 10;
     $(".masthead").mousemove(function (e) {
         var width = $(this).innerWidth();
         var height = $(this).innerHeight();
