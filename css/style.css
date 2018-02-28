@@ -8,7 +8,7 @@ body {
 
 hr {
     border-width: 2px;
-    border-color: #5cb85c; 
+    border-color: #ffdf00; 
     // animation: draw_hr 1s ease-in-out;
 }
 
@@ -22,12 +22,12 @@ hr.light {
 }
 
 a {
-    color: #5cb85c;
+    color: #3F3F3F;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
     transition: all 0.2s; }
 a:hover {
-    color: #5cb85c; }
+    color: #ffdf00; }
 
 
 #map{
@@ -68,13 +68,16 @@ h4{
 table img {
     margin-bottom: 20px;
     margin-top: 20px;
-    border: #fff solid 1px;
+    border:#ffdf00 solid 1px;
 
 }
 
 
 .bg-primary {
-    background-color: #5cb85c !important; }
+    background-color: #ffdf00 !important; }
+
+.bg-grey {
+    background-color: #e9ecf1 !important; }
 
 .bg-dark {
     background-color: #212529 !important; }
@@ -87,7 +90,7 @@ table img {
 }
 
 .text-green{
-    color: #5cb85c;
+    color: #ffdf00;
 }
 .text-19{
 
@@ -143,10 +146,10 @@ body {
     color: #212529; }
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #5cb85c; }
+    color: #ffdf00; }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-    color:#5cb85c !important;
+    color:#ffdf00 !important;
     background-color: transparent; }
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
@@ -181,7 +184,7 @@ body {
                     color: #212529; }
                 #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
                     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-                    color: #5cb85c; } }
+                    color: #ffdf00; } }
 
 
 
@@ -199,7 +202,9 @@ body {
 
             header.masthead .intro-text {
                 padding-top: 150px;
-                padding-bottom: 200px; }
+                padding-bottom: 200px; 
+                text-shadow: 2px 2px 4px #000000;
+            }
 
 
             header.masthead .intro-text .intro-lead-in {
@@ -272,7 +277,7 @@ body {
                 text-align: center;
                 opacity: 0;
                 color: #fff;
-                background: rgba(92,184,92, 0.8);
+                background: rgba(255,223,0, 0.8);
                 -webkit-transition: all 0.2s;
                 -moz-transition: all 0.2s;
                 transition: all 0.2s; }
@@ -303,7 +308,7 @@ body {
                     font-size: 22px; } }
 
             .text-primary {
-                color: #5cb85c !important; }// kolor ikonek
+                color: #ffdf00 !important; }// kolor ikonek
 
             .btn {
                 margin-top: 30px;
@@ -318,15 +323,17 @@ body {
             }
 
             .btn-primary {
-                background-color: #5cb85c;
-                border-color: #32C032;
+                background-color: #ffdf00;
+                border-color: #e0a800;
+                color: #666e76;
             }
 
 
             .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-                color: #fff;
-                background-color: #398439 !important;
-                border-color: #32C032;
+
+                background-color:#ffc107;
+                border-color: #e0a800;
+                color: #666e76;
 
             }
             .btn-primary:active, .btn-primary:focus {
