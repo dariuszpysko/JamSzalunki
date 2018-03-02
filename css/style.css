@@ -4,7 +4,7 @@ html {
     height: 100%; }
 
 body {
-    font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif; }
+    font-family:  'Helvetica Neue', Arial, sans-serif; }
 
 hr {
     border-width: 2px;
@@ -28,6 +28,8 @@ a {
     transition: all 0.2s; }
 a:hover {
     color: #ffdf00; }
+
+
 
 
 #map{
@@ -92,6 +94,11 @@ table img {
 .text-green{
     color: #ffdf00;
 }
+.text-yellow{
+    color: #ffdf00;
+}
+
+
 .text-19{
 
     font-size: 19px;
