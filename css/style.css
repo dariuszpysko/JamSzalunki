@@ -29,8 +29,10 @@ a {
 a:hover {
     color: #ffdf00; }
 
-
-
+.dropdown-item:hover{
+    
+    background-color: #ffdf00;
+}
 
 #map{
     margin-top: 30px;
